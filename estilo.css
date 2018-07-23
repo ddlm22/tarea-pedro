@@ -1,0 +1,313 @@
+body{
+   margin: 0%;
+}
+
+#contenido{
+    width: 100%;
+}
+
+#contenido img{
+    display: flex;
+    width:100%;
+}
+
+.layer-42{
+    display: flex;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 283px;
+    top: 33px;
+    border-radius: 50%;
+}
+
+#contenido .layer-42 img{ 
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.telefono{
+display: flex;
+position: absolute;
+  width: 122px;
+  height: 13px;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #706853;
+  right: 54px;
+  top: 39px;
+}
+
+.bienvenido {
+    display: flex;
+    position: absolute;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c0b283;
+    top: 70px;
+    right: 248px;
+  }
+
+  .especiales {
+    display: flex;
+    position: absolute;
+    width: 84px;
+    height: 14px;
+    mix-blend-mode: undefined;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffac5a;
+    top: 68px;
+    right: 69px;
+  }
+
+  .texto1{
+      display: flex;
+      position: absolute;
+      top:140px;
+      right: 34%;
+      font-family: vivaldi;
+      font-size: 56px;
+      color: #ffac5a;
+      letter-spacing: 1.5;
+  }
+
+
+  .parrafo-1{
+    width: 996px;
+    height: 71px;
+    mix-blend-mode: undefined;
+    font-family: Barlow;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c0b283;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+  }
+
+  #centrar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .parrafo-2{
+    width: 184px;
+    mix-blend-mode: undefined;
+    font-family: Barlow;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    text-align: center;
+    color: #706853;
+  }
+
+.datos-reserva{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .sombra{
+    box-shadow: rgb(136, 135, 135) 0px 0px 20px 0px, rgb(148, 146, 146) -15px 10px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.sombra input{
+   border-radius: 8px;
+   padding: 5px;
+}
+.btn-buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sombra .btn-buscar input{
+    color: #0c0c0c;
+    background: #c0b283;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+}
+.sombra span{
+  margin: 10%;
+  width: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #706853;
+}
+
+.opcion{
+    margin: 25px;
+    width: 25%;
+    text-align: center;
+}
+
+.parte-1{
+    width: 30%;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.parte-2{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.parte-1 span{
+    width: 164px;
+    height: 19px;
+    mix-blend-mode: undefined;
+    font-family: Barlow;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    text-align: center;
+    color: #706853;
+}
+
+.texto-1{
+    width: 202px;
+  height: 191px;
+  mix-blend-mode: undefined;
+  font-family: Barlow;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c0b283;
+}
+
+.parte-2 img{
+    width: 255px;
+    height: 264px;
+    margin-bottom: 15px;
+}
+.parte-2 span{
+   display: flex;
+   text-align: center;
+}
+.imagenes{
+    float: left;
+    width: 25%;
+}
+
+.imagenes input{
+    color: #0c0c0c;
+    background: #c0b283;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+.viaje-soñado{
+    width: 254px;
+    font-family: Barlow;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    text-align: center;
+    color: #706853;
+    margin: 25px 0 25px 0px;
+}
+
+.destinos-top{
+    width: 195px;
+    font-family: Barlow;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c0b283;
+    margin: 25px 0 25px 0px;
+}
+
+.carrusel{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 50px 30px 50px;
+}
+
+.carrusel img{
+    width: 246px;
+    height: 305px;
+    float: left;
+    margin-left:  25px;
+}
+
+.relajate-disfruta{
+    width: 582px;
+  height: 23px;
+  mix-blend-mode: undefined;
+  font-family: Barlow;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #706853;
+  margin: 30px;
+}
+
+.f-portadacentral{
+    width: 100%;
+    height: 402px;
+    margin: 50px 0px 50px 0px;
+}
